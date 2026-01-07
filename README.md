@@ -2,12 +2,11 @@
 
 This repository contains the source code for my personal portfolio website.
 
-The site showcases my work in Python development, UX/UI design, and accessible,
-user-centered technology, including case studies, prototypes, and selected projects.
+The site showcases my work in **Python development, UX/UI design, and accessible,
+user-centered technology**, including case studies, prototypes, and selected projects.
 
 🌐 **Live site:**  
-https://farhashafiuddin.github.io/Farha-Shafiuddin_Portfolio/
-
+[https://farhashafiuddin.github.io/Farha-Shafiuddin_Portfolio/](https://farhashafiuddin.github.io/Farha-Shafiuddin_Portfolio/)
 ---
 
 ## About the Portfolio
@@ -32,4 +31,5 @@ Each project includes context, tools used, and links to source code or prototype
 
 ## Related Repositories
 
-- UX & Python Projects: https://github.com/farhashafiuddin/ux_python_projects
+- **UX & Python Projects:** [https://github.com/FarhaShafiuddin/ux-python-prototypes](https://github.com/FarhaShafiuddin/ux-python-prototypes)
+
