@@ -32,4 +32,4 @@ Each project includes context, tools used, and links to source code or prototype
 
 ## Related Repositories
 
-- UX & Python Projects: https://github.com/farhashafiuddin/ux_python_projects
+- UX & Python Projects: https://github.com/FarhaShafiuddin/ux_python_projects
