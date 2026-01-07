@@ -1,4 +1,104 @@
-/* Image previews (Accessible Form) */
+/* ======= Global reset ======= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* ======= Main container ======= */
+main.projects {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+/* ======= Section title ======= */
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+/* ======= Projects grid ======= */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+/* ======= Individual card ======= */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* ======= Project titles ======= */
+.project-card h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* ======= Description text ======= */
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #374151;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* ======= Tags ======= */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+  justify-content: center;
+}
+
+.tags span {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background-color: #eef2ff;
+  color: #3730a3;
+}
+
+/* ======= Project links ======= */
+.project-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* ======= Image previews (Accessible Form) ======= */
 .project-image {
   width: 100%;
   height: 240px;
@@ -8,7 +108,7 @@
   border: 1px solid #e5e7eb;
 }
 
-/* Figma preview container (ALL SAME SIZE) */
+/* ======= Figma preview container (ALL SAME SIZE) ======= */
 .prototype-preview {
   width: 100%;
   height: 260px;
@@ -22,4 +122,21 @@
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* ======= Footer ======= */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
