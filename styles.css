@@ -23,7 +23,7 @@ main.projects {
   font-weight: 600;         /* intentional, not default bold */
   letter-spacing: 0.02em;   /* adds clarity at small sizes */
   text-transform: uppercase; /* optional but very effective */
-  color: #374151;           /* softer than black */
+  color: #ECF0F1;           /* grayish white */
   text-align: center;
   margin-bottom: 2rem;
 }
