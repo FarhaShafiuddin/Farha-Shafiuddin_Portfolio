@@ -17,6 +17,11 @@ main.projects {
   padding: 4rem 1.5rem;
 }
 
+/* ======= Site title ======= */
+.site-title {
+  color: #f9fafb;
+}
+
 /* ======= Section title ======= */
 .section-title {
   font-size: 1.50rem;        /* clearly smaller */
@@ -26,6 +31,16 @@ main.projects {
   color: #ECF0F1;           /* grayish white */
   text-align: center;
   margin-bottom: 2rem;
+}
+
+/* ======= Site title ======= */
+.site-title {
+  color: #111827;
+}
+/* ======= Subtitle ======= */
+.subtitle {
+  text-align: center;
+  color: #d1d5db;
 }
 
 
