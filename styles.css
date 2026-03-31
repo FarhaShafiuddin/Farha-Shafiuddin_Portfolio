@@ -19,6 +19,8 @@ main.projects {
 
 /* ======= Site title ======= */
 .site-title {
+  text-align: center;
+  margin-top: 2rem;
   color: #f9fafb;
 }
 
