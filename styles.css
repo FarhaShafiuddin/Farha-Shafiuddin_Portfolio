@@ -17,11 +17,19 @@ main.projects {
   padding: 4rem 1.5rem;
 }
 
+/* ======= Header styling ======= */
+header {
+  text-align: center;     /* centers everything inside header */
+  margin-top: 4rem;       /* pushes the header down from top of page */
+}
+
 /* ======= Site title ======= */
 .site-title {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   color: #f9fafb;
+  font-weight: 700;
+  margin-bottom: 0.5rem;  /* space between name and subtitle */
 }
 
 /* ======= Section title ======= */
@@ -37,8 +45,10 @@ main.projects {
 
 /* ======= Subtitle ======= */
 .subtitle {
-  text-align: center;
   color: #d1d5db;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;    /* space before projects section */
 }
 
 
