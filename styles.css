@@ -166,3 +166,8 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Keep the newest application first */
+.projects-grid > .featured-project {
+  order: -1;
+}
